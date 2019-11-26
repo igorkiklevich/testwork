@@ -1,0 +1,73 @@
+
+@media (min-width:375px){
+    .container{
+        max-width: 335px;
+    }
+    .main__title {
+        font-size: 34px;
+    }
+
+    .main__tarifs-item-left {
+        &-title {
+            font-size: 22px;
+        }
+
+        &-price {
+            font-size: 14px;
+        }
+    }
+    .main__tarifs-item-button a{
+        width: 162px;    font-size: 13px;
+    }
+    .main__tarifs-item:nth-child(2) .main__tarifs-item-left-price{
+        font-size: 14px;
+    }
+    .main__tarif-list ul li{
+        font-size: 17px;
+    }
+}
+@media (min-width:375px) and (height: 812px) {
+    main {
+        margin-top: 137px;
+    }
+    .header {
+        padding-top: 57px;
+    }
+    .container__fluid{
+        height: 788px;
+    }
+    .main__tarif-list{
+        margin-bottom: 147px;
+    }
+}
+@media (min-width:375px) and (height: 667px) {
+    .container__fluid{
+        height: 667px;
+    }
+    main {
+        margin-top: 108px;
+    }
+    .main__tarif-list{
+        margin-bottom: 104px;
+    }
+    .footer__text{
+        padding-top: 4px;
+    }
+}
+@media (min-width:414px){
+    .container{
+        max-width: 374px;
+    }
+    main {
+        margin-top: 142px;
+    }
+    .container__fluid{
+        height: 736px;
+    }
+    .main__tarif-list{
+        margin-bottom: 145px;
+    }
+    .footer__text{
+        padding: 0;
+    }
+}
